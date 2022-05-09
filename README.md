@@ -1,4 +1,4 @@
-Expert Computer System
+***Expert Computer System***
 This submission contains the first project of the Introduction to Artificial Intelligence class from the Computer Science Departmenet of Texas State University.
 
 Description
