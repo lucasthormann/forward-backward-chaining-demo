@@ -517,8 +517,8 @@ class Backward{
 class Forward{
     private:
     int flag;
-    char cndvar[36][3]; // lilly condition variable
-    char varlt[36][3]; // lilly
+    char cndvar[36][3];
+    char varlt[36][3];
     unordered_map<int, string> clvarlt =  { {1,"HD"},{2,"AR"},{3,"CL"},{4,"MM"},{6,"AT"},{7,"HV"},
                                             {8,"RO"},{11,"AT"},{12,"HV"},{13,"RO"},{16,"AT"},
                                             {17,"HV"},{18,"RO"},{21,"HD"},{22,"CA"},{23,"ND"},
@@ -647,7 +647,7 @@ class Forward{
         {
             i = 5 * (sn-1) + cn;
             strcpy(v, (find_var_in_clvarlt(clvarlt, i)).c_str());
-            while (strcmp(v, "") && i < (5 * (sn-1) + 6)) // FIX
+            while (strcmp(v, "") && i < (5 * (sn-1) + 6))
             {
 
                 check_instantiation();/* check instantiation of this clause */
