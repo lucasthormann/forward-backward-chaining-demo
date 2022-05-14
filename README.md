@@ -46,5 +46,4 @@ repeat
 		end if
 	end for
 	Pick one triggered rule instance, using conflict resolution strategy if needed, and fire it
-	(throw away other instances)
-until no change in working memory, or no STOP signal
+	(throw away other instances) until no change in working memory, or no STOP signal
