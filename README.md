@@ -7,7 +7,7 @@ Backward Chaining
 Forward Chaining
 
 **Building on Windows/MAC/Linux**
-* In order to properly run and use this program, you must install the .cpp file, download and read the project report, and download and read the readme file. This software is capable of running on any digital, computational device capable of compiling and executing C++ files.
+* In order to properly build and run this program, you must install the .cpp file, download and read the project report, and download and read the readme file. This software is capable of running on any digital, computational device capable of compiling and executing C++ files.
 Once you have properly installed the .cpp file, you should then open it in an IDE capable of compiling and executing C++ files. Once the file is properly opened in a functional IDE, use the tools provided by the IDE to build and run the single C++ file.
 
 **Dependencies**
