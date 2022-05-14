@@ -13,7 +13,7 @@ Once you have properly installed the .cpp file, you should then open it in an ID
 **Dependencies**
 * Install the latest version of an IDE capable of compiling and executing C++ files
 
-**Building**
+**Program Execution**
 * I've used CodeBlocks IDE for running and debugging, so the execution could be done using the graphical interface of the IDE.
 
 **Backward Chaining & Forward Chaining Simplification**
