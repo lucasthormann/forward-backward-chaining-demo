@@ -19,7 +19,7 @@ Once you have properly installed the .cpp file, you should then open it in an ID
 **Backward Chaining & Forward Chaining Simplification**
 1. Backward Chaining
 The technique chosen to diagnose a disease was the Bakcwrad Chaining Algorithm. This algorithm functions via a few simple data structures. The algorithms functionalty in essence is described via this psuedo-code:
-
+```
 Backward-Chaining(H)
 if H matches an assertion in working memory then
 	return true
@@ -33,10 +33,10 @@ for every rule R with a consequent that matches H do
 	end if
 end for
 return false
-
+```
 2. Forward Chaining
 The technique chosen to diagnose a disease was the Forward Chaining Algorithm. This algorithm functions via a few simple data structures aswell. The algorithms functionalty in essence is described via this psuedo-code:
-
+```
 Forward-Chaining
 repeat
 	for every rule do
@@ -47,3 +47,4 @@ repeat
 	end for
 	Pick one triggered rule instance, using conflict resolution strategy if needed, and fire it
 	(throw away other instances) until no change in working memory, or no STOP signal
+```
