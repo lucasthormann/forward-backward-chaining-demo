@@ -1,7 +1,7 @@
 # ***Expert Computer System***
 * This program was the first project of the Introduction to Artificial Intelligence course from the Computer Science Departmenet of Texas State University.
 
-* Description
+**Description***
 This program is an intelligent computer expert system designed for a hospital to use in order to diagnose Cardiovascular (Heart) diseases and to recommend the treatment based on the diagnosis. This software is intended to be used by hospital staff by feeding the symptoms of a patient to this expert system. This expert system will diagnose the specific Cardiovascular disease and will recommend the treatment. This system is implemented using both backward and forward chaining algorithms. In order to properly use this software the user must understand the meaning of the abbreviated symptoms, diseases, and treatments. The user can unerstand these abbreviates by reading the project report. This expert system was implemented using two primary algorithms:
 Backward Chaining
 Forward Chaining
