@@ -7,17 +7,27 @@ Backward Chaining
 Forward Chaining
 
 **Building on Windows/MAC/Linux**
-* In order to properly build and run this program, you must install the .cpp file, download and read the project report, and download and read the readme file. This software is capable of running on any digital, computational device capable of compiling and executing C++ files.
-Once you have properly installed the .cpp file, you should then open it in an IDE capable of compiling and executing C++ files. Once the file is properly opened in a functional IDE, use the tools provided by the IDE to build and run the single C++ file. You can clone the repo by running the following command:
+* In order to properly build and run this program, you must install the .cpp file, download and read the project report, and download and read the Markdown file. This software is capable of running on any digital, computational device capable of compiling and executing C++ files.
+Once you have properly installed the .cpp file, you should then open it in an IDE capable of compiling and executing C++ files. Once the file is properly opened in a functional IDE, use the tools provided by the IDE to build and run the single C++ file.
+* You can clone the repo by running the following command:
 ```
 git clone https://github.com/lucasthormann/forward-backward-chaining-demo.git
 ```
+* You can compile the application using the following command (after changing to the proper directory):
+```
+g++ -std=c++11 Forward-Backward-Chaining.cpp
+```
+* You can then execute the produced assembler output using the following command:
+```
+./a.out
+```
 
 **Dependencies**
-* Install the latest version of an IDE capable of compiling and executing C++ files
+* g++
+* Ubuntu 24.04 LTS or later
 
 **Program Execution**
-* I've used CodeBlocks IDE for running and debugging, so the execution could be done using the graphical interface of the IDE.
+* I've personally used CodeBlocks IDE for running and debugging, so the execution could be done using the graphical interface of the IDE if preferred.
 
 **Backward Chaining & Forward Chaining Simplification**
 1. Backward Chaining
@@ -51,3 +61,4 @@ repeat
 	Pick one triggered rule instance, using conflict resolution strategy if needed, and fire it
 	(throw away other instances) until no change in working memory, or no STOP signal
 ```
+
