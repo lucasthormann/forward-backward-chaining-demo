@@ -2,13 +2,8 @@
 * This program was the first project to be assigned in the Introduction to Artificial Intelligence course from the Computer Science Department of Texas State University during the Fall 2021 semester.
 
 **Description**
-* This program is an implementation of an expert system designed for medical professionals to use in order to diagnose cardiovascular diseases and to recommend a treatment based on the diagnosis. This software is intended to be used by hospital staff by feeding the symptoms of a patient to this expert system. This expert system will diagnose the specific Cardiovascular disease and will recommend the treatment. This system is implemented using both backward and forward chaining algorithms. In order to properly use this software the user must understand the meaning of the abbreviated symptoms, diseases, and treatments. The user can unerstand these abbreviates by reading the project report. This expert system was implemented using two primary algorithms:
-Backward Chaining
-Forward Chaining
+* This program is an implementation of an expert system designed for medical professionals to use in order to diagnose cardiovascular diseases and to recommend a treatment based on the diagnosis. This software is intended to be used by hospital staff who would input the symptoms of a patient into this expert system. This expert system will diagnose the specific Cardiovascular disease and will recommend the treatment. This system is implemented using both the backward and forward chaining algorithms. In order to properly use this software the user must understand the meaning of the abbreviated symptoms, diseases, and treatments.
 
-**Building on Windows/MAC/Linux**
-* In order to properly build and run this program, you must install the .cpp file, download and read the project report, and download and read the Markdown file. This software is capable of running on any digital, computational device capable of compiling and executing C++ files.
-Once you have properly installed the .cpp file, you should then open it in an IDE capable of compiling and executing C++ files. Once the file is properly opened in a functional IDE, use the tools provided by the IDE to build and run the single C++ file.
 * You can clone the repo by running the following command:
 ```
 git clone https://github.com/lucasthormann/forward-backward-chaining-demo.git
@@ -22,12 +17,9 @@ g++ -std=c++11 Forward-Backward-Chaining.cpp
 ./a.out
 ```
 
-**Dependencies**
+**Dependencies For Ease of Execution**
 * g++
 * Ubuntu 24.04 LTS or later
-
-**Program Execution**
-* I've personally used CodeBlocks IDE for running and debugging, so the execution could be done using the graphical interface of the IDE if preferred.
 
 **Backward Chaining & Forward Chaining Simplification**
 1. Backward Chaining
@@ -61,4 +53,5 @@ repeat
 	Pick one triggered rule instance, using conflict resolution strategy if needed, and fire it
 	(throw away other instances) until no change in working memory, or no STOP signal
 ```
+
 
