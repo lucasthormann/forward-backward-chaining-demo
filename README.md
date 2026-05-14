@@ -1,5 +1,5 @@
 # ***Expert Computer System***
-* This program was the first project to be assigned in the Introduction to Artificial Intelligence course from the Computer Science Department of Texas State University during the Fall 2021 semester.
+* This program was the first project to be assigned in the Introduction to Artificial Intelligence (CS 4346) course offered by Texas State University during the Fall semester of 2021.
 
 **Description**
 * This program is an implementation of an expert system designed for medical professionals to use in order to diagnose cardiovascular diseases and to recommend a treatment based on the diagnosis. This software is intended to be used by hospital staff who would input the symptoms of a patient into this expert system. This expert system will diagnose the specific Cardiovascular disease and will recommend the treatment. This system is implemented using both the backward and forward chaining algorithms. In order to properly use this software the user must understand the meaning of the abbreviated symptoms, diseases, and treatments.
@@ -12,13 +12,13 @@ git clone https://github.com/lucasthormann/forward-backward-chaining-demo.git
 ```
 g++ -std=c++11 Forward-Backward-Chaining.cpp
 ```
-* You can then execute the produced assembler output using the following command:
+* You can then run the executable using the following command:
 ```
 ./a.out
 ```
 
 **Dependencies For Ease of Execution**
-* g++
+* GCC 16.1 or newer in order to use the most up to date version of G++
 * Ubuntu 24.04 LTS or later
 
 **Backward Chaining & Forward Chaining Simplification**
