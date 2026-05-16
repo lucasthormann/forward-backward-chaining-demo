@@ -23,11 +23,11 @@
 ```
 git clone https://github.com/lucasthormann/forward-backward-chaining-demo.git
 ```
-* Compile the application using the following command:
+* Build the application by using the following command:
 ```
 g++ -std=c++11 Forward-Backward-Chaining.cpp
 ```
-* You can then run the assembler output by using the following command:
+* Run the assembler output by using the following command:
 ```
 ./a.out
 ```
