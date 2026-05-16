@@ -1,4 +1,4 @@
-# ***Cardiovascular Expert System***
+# Cardiovascular Expert System
 * This was the first project to be assigned in the Introduction to Artificial Intelligence (CS 4346) course offered by Texas State University during the Fall semester of 2021.
 
 **Description**
@@ -31,10 +31,11 @@ g++ -std=c++11 Forward-Backward-Chaining.cpp
 ```
 ./a.out
 ```
+# Pseudocode
 
 **Backward Chaining & Forward Chaining Simplification**
 1. Backward Chaining
-- The technique implemented to diagnose a disease was the backward chaining algorithm. This algorithm functions via a few simple data structures. The algorithm's functionalty (in essence) is described via this psuedo-code:
+- The technique implemented to diagnose a disease was the backward chaining algorithm. This algorithm functions via a few simple data structures. The algorithm's functionalty (in essence) is described via this psuedocode:
 ```
 Backward-Chaining(H)
 if H matches an assertion in working memory then
@@ -51,7 +52,7 @@ end for
 return false
 ```
 2. Forward Chaining
-- The technique implemented to recommend a treatment predicated on the diagnosis was the forward chaining algorithm. This algorithm functions via a few simple data structures as well. The algorithm's functionalty (in essence) is described via this psuedo-code:
+- The technique implemented to recommend a treatment predicated on the diagnosis was the forward chaining algorithm. This algorithm functions via a few simple data structures as well. The algorithm's functionalty (in essence) is described via this psuedocode:
 ```
 Forward-Chaining
 repeat
