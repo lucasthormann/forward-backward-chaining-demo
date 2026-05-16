@@ -25,11 +25,11 @@ git clone https://github.com/lucasthormann/forward-backward-chaining-demo.git
 ```
 * Build the application by using the following command
 ```
-g++ -std=c++11 Forward-Backward-Chaining.cpp
+g++ -std=c++11 Forward-Backward-Chaining.cpp -o expert
 ```
-* Run the assembler output by using the following command
+* Run the linker output by using the following command
 ```
-./a.out
+./expert
 ```
 # Pseudocode
 
