@@ -1,29 +1,37 @@
-# ***Expert Computer System***
-* This program was the first project to be assigned in the Introduction to Artificial Intelligence (CS 4346) course offered by Texas State University during the Fall semester of 2021.
+# ***Cardiovascular Expert System***
+* This was the first project to be assigned in the Introduction to Artificial Intelligence (CS 4346) course offered by Texas State University during the Fall semester of 2021.
 
 **Description**
-* This program is an implementation of an expert system designed for medical professionals to use in order to diagnose cardiovascular diseases and to recommend a treatment based on the diagnosis. This software is intended to be used by hospital staff who would input the symptoms of a patient into this expert system. This expert system will diagnose the specific Cardiovascular disease and will recommend the treatment. This system is implemented using both the backward and forward chaining algorithms. In order to properly use this software the user must understand the meaning of the abbreviated symptoms, diseases, and treatments.
+* This program is an implementation of an expert system designed for "medical professionals" to use in order to diagnose cardiovascular diseases and to recommend a treatment based on the diagnosis. This system is implemented using both the backward and forward chaining algorithms. In order to properly use this software the user must understand the meaning of the abbreviated symptoms, diseases, and treatments. That information is included in the project report.
 
-* You can clone the repo by running the following command:
+**Development Environment**
+* Acer Aspire E5-575 (x86_64)
+* Windows 10
+* Code::Blocks 20.03
+
+**Target Environment**
+* A server managed by university staff running a Red Hat Enterprise Linux 8.5 instance
+
+**Dependencies**
+* GCC 16.1 or newer in order to use the most up to date version of G++
+* Git 2.43.0 or newer
+
+* Clone the repo by running the following command:
 ```
 git clone https://github.com/lucasthormann/forward-backward-chaining-demo.git
 ```
-* You can compile the application using the following command (after changing to the proper directory):
+* Compile the application using the following command:
 ```
 g++ -std=c++11 Forward-Backward-Chaining.cpp
 ```
-* You can then run the executable using the following command:
+* You can then run the assembler output by using the following command:
 ```
 ./a.out
 ```
 
-**Dependencies For Ease of Execution**
-* GCC 16.1 or newer in order to use the most up to date version of G++
-* Ubuntu 24.04 LTS or later
-
 **Backward Chaining & Forward Chaining Simplification**
 1. Backward Chaining
-- The technique chosen to diagnose a disease was the Bakcwrad Chaining Algorithm. This algorithm functions via a few simple data structures. The algorithms functionalty in essence is described via this psuedo-code:
+- The technique implemented to diagnose a disease was the backward chaining algorithm. This algorithm functions via a few simple data structures. The algorithm's functionalty (in essence) is described via this psuedo-code:
 ```
 Backward-Chaining(H)
 if H matches an assertion in working memory then
@@ -40,18 +48,16 @@ end for
 return false
 ```
 2. Forward Chaining
-- The technique chosen to diagnose a disease was the Forward Chaining Algorithm. This algorithm functions via a few simple data structures aswell. The algorithms functionalty in essence is described via this psuedo-code:
+- The technique implemented to recommend a treatment predicated on the diagnosis was the forward chaining algorithm. This algorithm functions via a few simple data structures as well. The algorithm's functionalty (in essence) is described via this psuedo-code:
 ```
 Forward-Chaining
 repeat
 	for every rule do
-		if antecedents match assertions in the rule set and consequents would change
-		the working memory then
+		if antecedents match assertions in the rule set and consequents would change the working memory then
 			Create triggered rule instance
 		end if
 	end for
-	Pick one triggered rule instance, using conflict resolution strategy if needed, and fire it
-	(throw away other instances) until no change in working memory, or no STOP signal
+	Pick one triggered rule instance, using conflict resolution strategy if needed, and fire it (throw away other instances) until no change in working memory or no STOP signal
 ```
 
 
