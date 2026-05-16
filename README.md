@@ -16,6 +16,9 @@
 * GCC 16.1 or newer in order to use the most up to date version of G++
 * Git 2.43.0 or newer
 
+
+# How To Run
+
 * Clone the repo by running the following command:
 ```
 git clone https://github.com/lucasthormann/forward-backward-chaining-demo.git
