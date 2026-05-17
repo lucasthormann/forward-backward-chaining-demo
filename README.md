@@ -10,7 +10,7 @@
 * Code::Blocks 20.03
 
 **Target Environment:**
-* A server managed by university staff running a Red Hat Enterprise Linux 8.5 instance
+* A server (managed by university staff) running a Red Hat Enterprise Linux 8.5 instance
 
 **Dependencies:**
 * GCC 16.1 or newer in order to use the most up to date version of G++
